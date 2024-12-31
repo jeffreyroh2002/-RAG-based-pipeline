@@ -53,6 +53,5 @@ inputs = generation_tokenizer(prompt, return_tensors="pt", max_length=1024, trun
 outputs = generation_model.generate(inputs["input_ids"], max_length=128, num_beams=4, early_stopping=True)
 answer = generation_tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-# 8. Output the Final Answer
 print("Query:", query)
 print("Final Answer:", answer)
