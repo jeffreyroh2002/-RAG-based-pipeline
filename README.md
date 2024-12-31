@@ -4,5 +4,7 @@ This repository contains a simple demonstration of a Retrieval-Augmented Generat
 
 **Features**
 **Document Retrieval:** Uses FAISS and Sentence-BERT for fast and accurate document matching.
+
 **Generative Response:** Leverages BART to create human-like responses based on retrieved context.
+
 **Customizable Knowledge Base:** Easily adaptable to various domains (e.g., banking, finance, etc.).
