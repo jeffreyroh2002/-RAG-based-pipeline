@@ -11,8 +11,9 @@ generator_model = AutoModelForSeq2SeqLM.from_pretrained('facebook/bart-base')
 
 # 2. Suppose we have a list of knowledge base documents
 knowledge_docs = [
-    "Document A: This is some domain-specific content about topic X.",
-    "Document B: Further details regarding topic X from a verified source.",
+    "Document A: As of December 31, 2024, the interest rate for savings accounts is 2.5% per annum for balances below $10,000.",
+    "Document B: Savings accounts with balances over $10,000 earn an interest rate of 3.0% per annum.",
+    "Document C: Our premium savings account offers 4.0% annual interest for VIP members.",
 ]
 
 # 3. Embed and Index Documents with FAISS
